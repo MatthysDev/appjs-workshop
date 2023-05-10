@@ -1,4 +1,4 @@
-import {ViewStyle} from 'react-native/types';
+import { ViewStyle } from 'react-native/types';
 
 export type ChangeEventPayload = {
   value: string;

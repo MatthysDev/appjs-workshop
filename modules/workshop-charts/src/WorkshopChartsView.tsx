@@ -1,7 +1,7 @@
-import {requireNativeViewManager} from 'expo-modules-core';
+import { requireNativeViewManager } from 'expo-modules-core';
 import * as React from 'react';
 
-import {WorkshopChartsViewProps} from './WorkshopCharts.types';
+import { WorkshopChartsViewProps } from './WorkshopCharts.types';
 
 const NativeView: React.ComponentType<WorkshopChartsViewProps> =
   requireNativeViewManager('WorkshopCharts');
